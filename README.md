@@ -1,27 +1,41 @@
-# Meta-repo for speilvendt sine repoer
+# Meta-repo for Team Speilvendt sine repoer
 
 ## Komme i gang
 
-[meta](https://github.com/mateodelnorte/meta) brukes til å sette opp
-repositories for alle repoene.
+[meta](https://github.com/mateodelnorte/meta) brukes til å klone og jobbe med dette repoet. Det må installeres separat.
 
-Enn så lenge må du sørge for å ha `npm` installert (`brew install node`).
+Dette krever at du allerede har [pnpm](https://pnpm.io/installation) installert hos deg:
 
-```
-npm install meta -g --no-save
-```
-
-Merk! meta foran vanlig clone-kommando:
-
-```
-meta git clone git@github.com:navikt/tbd-meta-speilvendt
+```bash
+pnpm i -g meta
 ```
 
-Nå kan git brukes som normalt for hvert repo.
+Etter dette kan meta benyttes for å klone dette repoet.
+Merk! `meta` foran vanlig clone-kommando:
 
-Se [meta](https://github.com/mateodelnorte/meta) for flere kommandoer.
+```bash
+meta git clone git@github.com:navikt/speilvendt-meta
+```
 
-Dersom du nå åpner build.gradle med Open (som Project) i IntelliJ så får du alle komponentene inn i ett IntelliJ-oppsett.
+Dette henter alle repoer ned i mappen som klones for `speilvendt-meta`.
+Disse kan jobbes med som vanlig.
+
+I tillegg kan `meta`-kommandoer kjøres i `speilvendt-meta`-mappen for å gjøre ting med alle repoene.
+Se [dokumentasjonen til meta](https://github.com/mateodelnorte/meta?tab=readme-ov-file#working-with-meta) for
+muligheter.
+
+## Oppdatere metarepoet med repositories
+
+Listen over hvilke repositories som gjelder for Speilvendt
+ligger [tbd-repoet](https://github.com/navikt/tbd/blob/master/repositories/speilvendt_bomlo.txt), som er at av repoene
+innenfor dette meta-repoet.
+Så lenge dette repoet er oppdatert lokalt (pullet), kan man kjøre:
+
+```bash
+./oppdater_metarepo.sh
+```
+
+Dette vil lese filen med reponavn og gjenskape meta-oppsettet basert på disse.
 
 ## Henvendelser
 
