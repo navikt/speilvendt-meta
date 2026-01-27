@@ -1,15 +1,36 @@
 {
   "projects": {
+    "bomlo-bigquery-terraform": "git@github.com:navikt/bomlo-bigquery-terraform.git",
+    "bomlo-data-analyse": "git@github.com:navikt/bomlo-data-analyse.git",
+    "bomlo-dbt": "git@github.com:navikt/bomlo-dbt.git",
+    "helse": "git@github.com:navikt/helse.git",
+    "helse-behovsakkumulator": "git@github.com:navikt/helse-behovsakkumulator.git",
     "helse-dataprodukter": "git@github.com:navikt/helse-dataprodukter.git",
-    "helse-docs": "git@github.com:navikt/helse-docs.git",
+    "helse-redteam": "git@github.com:navikt/helse-redteam.git",
     "helse-risk-mock": "git@github.com:navikt/helse-risk-mock.git",
+    "helse-spaghet": "git@github.com:navikt/helse-spaghet.git",
+    "helse-spalten": "git@github.com:navikt/helse-spalten.git",
+    "helse-spammer": "git@github.com:navikt/helse-spammer.git",
+    "helse-spane": "git@github.com:navikt/helse-spane.git",
     "helse-sparkelapper": "git@github.com:navikt/helse-sparkelapper.git",
     "helse-speaker": "git@github.com:navikt/helse-speaker.git",
+    "helse-speider": "git@github.com:navikt/helse-speider.git",
     "helse-speil": "git@github.com:navikt/helse-speil.git",
     "helse-spesialist": "git@github.com:navikt/helse-spesialist.git",
+    "helse-spetakkel": "git@github.com:navikt/helse-spetakkel.git",
     "helse-spinnvill": "git@github.com:navikt/helse-spinnvill.git",
+    "helse-spleis-testdata": "git@github.com:navikt/helse-spleis-testdata.git",
+    "helse-spoken": "git@github.com:navikt/helse-spoken.git",
     "helse-spoogle": "git@github.com:navikt/helse-spoogle.git",
+    "helse-spotlight": "git@github.com:navikt/helse-spotlight.git",
+    "helse-spotter": "git@github.com:navikt/helse-spotter.git",
     "helse-spre": "git@github.com:navikt/helse-spre.git",
-    "helse-spre-gosys-pdf": "git@github.com:navikt/helse-spre-gosys-pdf.git"
+    "helse-spre-gosys-pdf": "git@github.com:navikt/helse-spre-gosys-pdf.git",
+    "helse-vedtaksfeed": "git@github.com:navikt/helse-vedtaksfeed.git",
+    "rapids-and-rivers": "git@github.com:navikt/rapids-and-rivers.git",
+    "rapids-and-rivers-cli": "git@github.com:navikt/rapids-and-rivers-cli.git",
+    "sparkiv-subsumsjon": "git@github.com:navikt/sparkiv-subsumsjon.git",
+    "tbd": "git@github.com:navikt/tbd.git",
+    "tbd-libs": "git@github.com:navikt/tbd-libs.git"
   }
 }
