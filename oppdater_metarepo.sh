@@ -1,7 +1,9 @@
 meta init --force
 while read -r project
 do
-    meta project import "${project#"navikt/"}" "git@github.com:$project".git
+  if [[ "$project" != "navikt/speilvendt-meta" ]]; then
+      meta project import "${project#"navikt/"}" "git@github.com:$project".git
+  fi
 done < tbd/repositories/speilvendt_bomlo.txt
 
 # Fjern duplikater fra .gitignore
