@@ -17,3 +17,7 @@ list-uncommitted:
 # Viser alle versjoner av gradle
 version-gradle: bootstrap
     script/version-gradle.sh {{ justfile_directory() }}
+
+# Viser alle versjoner av kotlin
+version-kotlin: bootstrap
+    script/version-kotlin.sh {{ justfile_directory() }}
