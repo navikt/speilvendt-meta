@@ -1,3 +1,7 @@
+#!/bin/bash
+set -euo pipefail
+IFS=$'\n\t'
+
 meta init --force
 while read -r project
 do
@@ -7,4 +11,4 @@ do
 done < tbd/repositories/speilvendt_bomlo.txt
 
 # Fjern duplikater fra .gitignore
-echo "$(sort -u .gitignore | cat -n | sort -nk1 | cut -f2-)" > .gitignore
+sort --unique .gitignore --output .gitignore
