@@ -10,6 +10,10 @@ bootstrap:
     @fd --version > /dev/null 2>&1  || brew install fd
     @rg --version > /dev/null 2>&1  || brew install ripgrep
 
+# Git pull i alle repoer
+pull:
+    meta exec "git pull" --parallel
+
 # Viser alle endringer som ikke er comitted
 list-uncommitted:
     meta exec "git status --short | cat" --parallel
