@@ -22,7 +22,6 @@
     "helse-spoken": "git@github.com:navikt/helse-spoken.git",
     "helse-spoogle": "git@github.com:navikt/helse-spoogle.git",
     "helse-spotlight": "git@github.com:navikt/helse-spotlight.git",
-    "helse-spotter": "git@github.com:navikt/helse-spotter.git",
     "helse-spre": "git@github.com:navikt/helse-spre.git",
     "helse-spre-gosys-pdf": "git@github.com:navikt/helse-spre-gosys-pdf.git",
     "helse-vedtaksfeed": "git@github.com:navikt/helse-vedtaksfeed.git",
